@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var {addCustomer,getCustomers,updateCustomer,deleteCustomer,getCustomerById} = require('../service/CustomerData');
+var {addCustomer,getCustomers,updateCustomer,deleteCustomer,getCustomerById} = require('../CustomerData');
 
 // /api/customer
 router.get('/', function(req, res, next) {
