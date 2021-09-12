@@ -1,10 +1,11 @@
 # CustomerAPP-nodejs
--sudo npm install express-genrator -g
+sudo npm install express-genrator -g
 -
--express --ejs node-customer-app
+express --ejs node-customer-app
 -
--cd node-customer-app
+cd node-customer-app
 -
--npm install
+npm install
 -
--nodemon
+nodemon
+-
